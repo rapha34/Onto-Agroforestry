@@ -29,20 +29,6 @@
             "scripts": []
           },
           "configurations": {
-            "fr": {
-                    "aot": true,
-                    "i18nFile": "translate/messages.fr.xlf",
-                    "i18nFormat": "xlf",
-                    "i18nLocale": "fr",
-                    "i18nMissingTranslation": "ignore"
-            },
-            "en": {
-              "aot": true,
-              "i18nFile": "translate/messages.en.xlf",
-              "i18nFormat": "xlf",
-              "i18nLocale": "en",
-              "i18nMissingTranslation": "ignore"
-            },
             "production": {
               "fileReplacements": [
                 {
@@ -79,21 +65,9 @@
             "browserTarget": "onto-agroforestry:build"
           },
           "configurations": {
-            "fr": {
-              "browserTarget": "onto-agroforestry:build:fr"
-            },
-            "en": {
-              "browserTarget": "onto-agroforestry:build:en"
-            },
             "production": {
               "browserTarget": "onto-agroforestry:build:production"
             }
-          }
-        },
-        "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
-          "options": {
-            "browserTarget": "onto-agroforestry:build"
           }
         },
         "test": {
