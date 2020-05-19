@@ -1,10 +1,21 @@
-<nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
-  <div class="container">
-      <a class="navbar-brand">Bienvenu</a>
-      <ul class="nav navbar-nav" routerLinkActive="active">
-          <li class="nav-item"><a class="nav-link" routerLink="home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" routerLink="view1">V1</a></li>
-          <li class="nav-item"><a class="nav-link" routerLink="view2">V2</a></li>
-      </ul>
-  </div>
+
+<nav ngbNav #nav="ngbNav" class="nav-tabs">
+  <ng-container ngbNavItem>
+    <a ngbNavLink routerLink="home">Home</a>
+  </ng-container>
+  <ng-container ngbNavItem>
+    <a ngbNavLink routerLink="view-plots">Plots view</a>
+  </ng-container>
+  <ng-container ngbNavItem>
+    <a ngbNavLink routerLink="view-plots2">Plots2 view</a>
+  </ng-container>
+  <ng-container ngbNavItem>
+    <a ngbNavLink routerLink="tutorials">tuto</a>
+  </ng-container>
+  <ng-container ngbNavItem>
+    <a ngbNavLink routerLink="tutorials/:id">détail tuto</a>
+  </ng-container>
+  <ng-container ngbNavItem>
+    <a ngbNavLink routerLink="add">add tuto</a>
+  </ng-container>
 </nav>

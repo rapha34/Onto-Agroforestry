@@ -1,0 +1,16 @@
+<h3>Search Npm Packages</h3>
+<p><i>Searches when typing stops. Caches for 30 seconds.</i></p>
+<input (keyup)="search($event.target.value)" id="name" placeholder="Search"/>
+
+<ul>
+  <li *ngFor="let package of packages$ | async">
+    <b>{{package.id}} {{package.prefLabel}}</b>
+  </li>
+</ul>
+
+
+<!--
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

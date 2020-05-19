@@ -1,0 +1,14 @@
+.layout {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  right: 0;
+  max-height: none;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}

@@ -1,6 +1,13 @@
 {
   "HOME": {
-    "TITLE": "Hello Angular with ngx-translate!",
-    "SELECT": "Change language"
+    "LINE1": "Hello to the Onto-agroforestry website",
+    "LINE2": "My name is Raphaël"
+  },
+  "LANGUAGECHOICE": {
+    "SELECT": "Your language"
+  },
+  "HEADER": {
+    "TITLE": "Hello",
+    "RIGHT" : "It's late !"
   }
 }
